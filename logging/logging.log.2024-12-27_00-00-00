@@ -1,0 +1,74 @@
+2024-12-27 14:58:26.135 root         ERROR Error logging in user: syntax error at or near ";"
+LINE 2:                 SELECT * FROM Experience WHERE jns = ?;
+                                                              ^
+
+2024-12-27 15:10:08.423 root         ERROR Error logging in user: syntax error at or near ";"
+LINE 2:                 SELECT * FROM Experience WHERE jns = ?;
+                                                              ^
+
+2024-12-27 15:11:04.022 root         ERROR Error logging in user: syntax error at or near ";"
+LINE 2:                 SELECT * FROM Experience WHERE jns = ?;
+                                                              ^
+
+2024-12-27 15:11:18.769 root         ERROR Error logging in user: syntax error at or near ";"
+LINE 2:                 SELECT * FROM Experience WHERE jns = ?;
+                                                              ^
+
+2024-12-27 15:11:31.425 root         ERROR Error logging in user: syntax error at end of input
+LINE 3:             
+                    ^
+
+2024-12-27 15:13:57.533 root         ERROR Error logging in user: syntax error at end of input
+LINE 3:             
+                    ^
+
+2024-12-27 15:14:17.905 root         ERROR Error logging in user: syntax error at end of input
+LINE 3:             
+                    ^
+
+2024-12-27 15:14:41.803 root         ERROR Error logging in user: syntax error at end of input
+LINE 3:             
+                    ^
+
+2024-12-27 15:15:21.249 root         ERROR Error logging in user: syntax error at end of input
+LINE 3:             
+                    ^
+
+2024-12-27 15:15:34.701 root         ERROR Error logging in user: syntax error at end of input
+LINE 3:             
+                    ^
+
+2024-12-27 15:17:40.966 root         ERROR Error logging in user: syntax error at end of input
+LINE 3:             
+                    ^
+
+2024-12-27 15:18:19.787 root         ERROR Error logging in user: syntax error at end of input
+LINE 3:             
+                    ^
+
+2024-12-27 15:18:40.800 root         ERROR Error logging in user: syntax error at end of input
+LINE 3:             
+                    ^
+
+2024-12-27 15:22:01.426 root         ERROR Error fetching experience data: 'psycopg2.extensions.connection' object has no attribute 'execute'
+2024-12-27 15:22:37.230 root         ERROR Error fetching experience data: 'psycopg2.extensions.connection' object has no attribute 'execute'
+2024-12-27 15:23:26.226 root         INFO fc:fc_auth(): Error Handling, 'ListenExperience' object has no attribute 'exp'
+2024-12-27 15:24:05.942 root         ERROR Error fetching experience data: relation "experience" does not exist
+LINE 2:                 SELECT * FROM Experience WHERE jns = 'a'
+                                      ^
+
+2024-12-27 15:25:46.951 root         ERROR Error logging in user: 'psycopg2.extensions.connection' object has no attribute 'execute'
+2024-12-27 15:29:13.192 root         ERROR Error logging in user: syntax error at end of input
+LINE 3:             
+                    ^
+
+2024-12-27 15:51:57.263 root         INFO fc:fc_auth(): Error Handling, 'ListenExperience' object has no attribute 'exp'
+2024-12-27 15:57:07.252 root         ERROR Error logging in user: column "stsrc" does not exist
+LINE 2:                     SELECT * FROM project WHERE stsrc = 'A'
+                                                        ^
+
+2024-12-27 16:00:25.200 root         INFO fc:Project(): Data Project Tidak Ditemukan
+2024-12-27 16:00:34.887 root         INFO fc:Experience(): Data Experience Ditemukan
+2024-12-27 16:01:32.456 root         INFO fc:Experience(): Data Experience Ditemukan : [{'id': 1, 'tittle': 'Mitrasoft Global Perdana', 'role': 'Programmer', 'length': 'September 2024 - Present', 'description': 'abc', 'jns': 'exp', 'link': None, 'gambar': None, 'stsrc': 'A', 'created_at': datetime.datetime(2024, 12, 27, 8, 36, 21, 187781, tzinfo=datetime.timezone.utc)}, {'id': 2, 'tittle': 'PT. Agrofarm Nusa Raya', 'role': 'Fullstack Developer', 'length': '2023', 'description': 'asdasd', 'jns': 'exp', 'link': None, 'gambar': None, 'stsrc': 'A', 'created_at': datetime.datetime(2024, 12, 27, 8, 42, 22, 736708, tzinfo=datetime.timezone.utc)}]
+2024-12-27 16:01:38.643 root         INFO fc:Project(): Data Project Tidak Ditemukan
+2024-12-27 16:16:03.424 root         INFO fc:Project(): Data Project Tidak Ditemukan
